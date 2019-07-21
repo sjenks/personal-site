@@ -1,0 +1,76 @@
+body, input, select, textarea {
+    color: #414f57;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    letter-spacing: 0.1em;
+}
+
+.background {
+  background-image: url(../img/background.jpg); /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;  /* Background image doesn't tile */
+  background-attachment: fixed; /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+  background-size: cover; /* This is what makes the background image rescale based on the container's size */
+  background-color: #464646; /* For image loading */
+}
+
+.main {
+    background: rgba(255,255,255,0.5); /*use rgba so that child can be opaque*/
+    height: 100vh; /*fill window*/
+    width: 100vw;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.overlay {
+    background: #eee;
+    opacity: 1;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.portrait {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.carrierIcon {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.carrier {
+    margin: 10px;
+    padding: 15px;
+}
+
+.contact {
+    background-color: #EEE;
+}
+
+.copyright {
+    color: gray;
+}
+
